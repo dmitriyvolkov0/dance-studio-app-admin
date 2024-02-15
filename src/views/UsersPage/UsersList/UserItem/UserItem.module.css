@@ -1,0 +1,18 @@
+.userItem{
+    transition: .2s;
+}
+
+.nextBut{
+    transition: .2s;
+    opacity: 0%;
+}
+
+.userItem:hover .nextBut,
+.userItem:active .nextBut{
+    opacity: 100%;
+}
+
+.userItem:hover,
+.userItem:active{
+    background: #ffbdf7;
+}

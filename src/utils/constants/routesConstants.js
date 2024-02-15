@@ -1,0 +1,9 @@
+export const AUTH_PAGE = "/auth";
+export const MAIN_PAGE = "/";
+export const ACTIVITES_PAGE = "/activities";
+export const USERS_PAGE = "/users";
+export const NOTIFICATIONS_PAGE = "/notifications";
+export const FINANCE_PAGE = "/finance";
+export const WITHDRAWALL_PAGE = "/withdrawall";
+export const CHAT_PAGE = "/chat";
+export const CHAT_WITH_USER_PAGE = "/user-dialog/uid?";
