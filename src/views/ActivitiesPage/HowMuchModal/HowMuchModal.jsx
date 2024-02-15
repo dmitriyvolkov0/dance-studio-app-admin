@@ -15,7 +15,7 @@ export default function HowMuchModal({setActiveModal, activity}) {
                 <img className="w-full max-w-[160px] mx-auto" src={MoneyImg} alt="Доход" />
                 {activity.users ? //Если хоть кто-то записан на занятие
                     <>
-                        <span className="text-gradient-1 text-[48px] font-bold text-center">{sum} Р</span>
+                        <span className="text-gradient-1 text-[50px] font-bold text-center">{sum} Р</span>
                         <span className='text-[18px] text-medium text-center mt-2 mb-4'>Такую сумму вы заработаете с данного занятия!</span>
                     </>
                     : //Если никто не записан

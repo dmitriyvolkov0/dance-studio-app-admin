@@ -6,11 +6,11 @@ import { AUTH_PAGE, MAIN_PAGE, ACTIVITES_PAGE, USERS_PAGE, NOTIFICATIONS_PAGE, F
 import UserContext from '@components/contexts/User/UserContext';
 import PrivateRoutes from './components/PrivateRoutes/PrivateRoutes';
 
+import {getHoursBetweenDates} from '@utils/helpers/timeFunctions.js';
+
 // firebase
 import './services/firebase/firebaseConfig.js';
 import { getDatabase, ref, onValue } from "firebase/database";
-
-import {getHoursBetweenDates} from '@utils/helpers/timeFunctions.js';
 
 // pages
 import MainPage from './views/MainPage/MainPage';
